@@ -22,15 +22,19 @@
 
 #import "IJKMediaPlayback.h"
 
-NSString *const IJKMediaPlaybackIsPreparedToPlayDidChangeNotification = @"IJKMediaPlaybackIsPreparedToPlayDidChangeNotification";
+NSString *const IJKMPMediaPlaybackIsPreparedToPlayDidChangeNotification = @"IJKMPMediaPlaybackIsPreparedToPlayDidChangeNotification";
 
-NSString *const IJKMoviePlayerLoadStateDidChangeNotification = @"IJKMoviePlayerLoadStateDidChangeNotification";
-NSString *const IJKMoviePlayerPlaybackDidFinishNotification = @"IJKMoviePlayerPlaybackDidFinishNotification";
-NSString *const IJKMoviePlayerPlaybackStateDidChangeNotification = @"IJKMoviePlayerPlaybackStateDidChangeNotification";
+NSString *const IJKMPMoviePlayerPlaybackDidFinishNotification = @"IJKMPMoviePlayerPlaybackDidFinishNotification";
+NSString *const IJKMPMoviePlayerPlaybackDidFinishReasonUserInfoKey =
+    @"IJKMPMoviePlayerPlaybackDidFinishReasonUserInfoKey";
+NSString *const IJKMPMoviePlayerPlaybackStateDidChangeNotification = @"IJKMPMoviePlayerPlaybackStateDidChangeNotification";
+NSString *const IJKMPMoviePlayerLoadStateDidChangeNotification = @"IJKMPMoviePlayerLoadStateDidChangeNotification";
 
-NSString *const IJKMoviePlayerIsAirPlayVideoActiveDidChangeNotification = @"IJKMoviePlayerIsAirPlayVideoActiveDidChangeNotification";
+NSString *const IJKMPMoviePlayerIsAirPlayVideoActiveDidChangeNotification = @"IJKMPMoviePlayerIsAirPlayVideoActiveDidChangeNotification";
 
-NSString *const IJKMoviePlayerVideoDecoderOpenNotification = @"IJKMoviePlayerVideoDecoderOpenNotification";
+NSString *const IJKMPMovieNaturalSizeAvailableNotification = @"IJKMPMovieNaturalSizeAvailableNotification";
 
-NSString *const IJKMoviePlayerFirstVideoFrameRenderedNotification = @"IJKMoviePlayerFirstVideoFrameRenderedNotification";
-NSString *const IJKMoviePlayerFirstAudioFrameRenderedNotification = @"IJKMoviePlayerFirstAudioFrameRenderedNotification";
+NSString *const IJKMPMoviePlayerVideoDecoderOpenNotification = @"IJKMPMoviePlayerVideoDecoderOpenNotification";
+
+NSString *const IJKMPMoviePlayerFirstVideoFrameRenderedNotification = @"IJKMPMoviePlayerFirstVideoFrameRenderedNotification";
+NSString *const IJKMPMoviePlayerFirstAudioFrameRenderedNotification = @"IJKMPMoviePlayerFirstAudioFrameRenderedNotification";
